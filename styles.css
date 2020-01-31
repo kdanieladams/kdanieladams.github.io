@@ -1,0 +1,27 @@
+body {
+    background-color: #121212;
+    color: #ccc;
+    margin: 15px 100px;
+    font-family: sans-serif;
+}
+a:link, a:visited, a:active {
+    color: #900;
+    text-decoration: none;
+}
+a:hover {
+    color: #c00;
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+}
+p {
+    line-height: 1.5em;
+}
+ul li {
+    margin: 15px;
+}
+p, ul {
+    max-width: 1152px;
+    margin: 15px auto;
+}
