@@ -17,21 +17,24 @@ h1 {
 }
 p {
     line-height: 1.5em;
+    text-align: center;
 }
-p, ul {
+main {
     max-width: 1152px;
     margin: 15px auto;
 }
-ul {
+ul li {
+    margin: 10px 0;
+}
+ul.project-list {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
     justify-content: space-around;
 }
-ul li {
+ul.project-list li {
     height: 150px;
     margin: 15px;
-    flex-grow: 2;
     flex-basis: 20%;
     list-style: none;
     text-align: center;
